@@ -9,11 +9,13 @@ html {
 }
 
 body {
+  font-family: 'Poppins', 'Arial' , san-serif;
   display: flex;
   flex-direction: column;
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 
 main {

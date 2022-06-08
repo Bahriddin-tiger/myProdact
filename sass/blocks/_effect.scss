@@ -1,0 +1,143 @@
+.effect {
+    margin-bottom: 150px;
+    background-color: #e5e5e5;
+}
+
+.effect__hiading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 56px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+}
+
+.effect__inner {
+    display: flex;
+    align-items: center;
+}
+
+.effect__img{
+    width: 528px;
+    height: 392px;
+    margin-right: 63px;
+}
+
+.effect__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 555px;
+    list-style-type: none;
+}
+
+.effect__item {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 30px;   
+}
+
+.effect__item:nth-child(1)::before{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/Enterpreneur.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " ";
+}
+.effect__item:nth-child(2)::before{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/Accountants.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " ";
+}
+.effect__item:nth-child(3)::before{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/Universities.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " ";
+}
+
+.effect__item:last-child{
+    margin-bottom: 0;
+}
+
+.effect__title {
+    margin: 0;
+    padding: 0;
+    padding-left: 60px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22343D;
+}
+
+.effect__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+@media only screen and (max-width:576px) {
+    .effect {
+        margin-bottom: 100px;
+    
+    }
+    
+    .effect__hiading {
+     
+        margin: 0 auto;
+        width: 100%;
+        max-width: 340px;
+     margin-bottom: 50px;
+    }
+    
+    .effect__inner {
+        
+       flex-direction: column;
+    }
+    
+    .effect__img{
+        width: 352px;
+        height: 290px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .effect__item{
+        padding-left: 15px;
+    }
+
+    .effect__text{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        max-width: 330px;
+    }
+    
+    
+}

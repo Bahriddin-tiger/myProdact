@@ -1,0 +1,158 @@
+.header {
+    padding: 19px 0;
+    margin-bottom: 25px;
+    background-color: #e5e5e5;
+}
+
+
+.header__inner {
+    display: flex;
+	align-items: center;
+
+}
+
+.header__link {
+    display: inline-block;
+	text-decoration: none;
+    margin-right: auto;
+}
+
+.header__logo-img {
+    width: 100%;
+    max-width: 163px;
+}
+
+.nav {
+    display: flex;
+	align-items: center;
+    margin-right: 24px;
+
+}
+
+.nav__list {
+    display: flex;
+	align-items: center;
+    margin: 0;
+	padding: 0;
+	list-style-type: none;
+    width: 100%;
+    max-width: 380px;
+    justify-content: space-between;
+}
+
+.nav__item {
+    margin: 0;
+	padding: 0;
+	list-style-type: none;
+    
+
+}
+
+.nav__link {
+    display: inline-block;
+	text-decoration: none;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+
+.nav__link:last-child{
+    margin-right: 0;
+}
+
+.header__botton-list {
+    display: flex;
+	align-items: center;
+    margin: 0;
+	padding: 0;
+	list-style-type: none;
+   
+}
+
+.botton-list__item {
+    margin: 0;
+	padding: 0;
+    padding: 10px 24px;
+	list-style-type: none;
+    margin-right: 24px;
+    border: 1px solid #BCD0E5;
+border-radius: 4px; 
+}
+
+.botton-list__item:last-child{
+    margin-right: 0;
+}
+
+
+.botton-list__botton {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color:#22343D;
+    border: 0;
+}
+
+.active {
+   background-color:#02897A;
+   color: #fff;
+}
+
+.ektiv{
+    background-color:#02897A;
+}
+
+.header__button {
+    border: 0;
+    border-radius: 100%;
+}
+
+.header__button-img {
+    width: 35px;
+    height: 35px;
+}
+
+.header__mobil-btn{
+    display: none;
+}
+
+.header__mobil-img{
+
+    width: 28px;
+    height: 31px;
+}
+
+
+@media only screen and (max-width:576px){
+    .header {
+        background: #FFFFFF;
+        box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+        padding: 17px 0;
+    }
+    
+   
+    .header__link {
+        margin-right: auto;
+    }
+
+
+    .nav {
+        display: none;
+    }
+  
+    .header__botton-list {
+        display: none;
+    }
+
+    .header__button{
+        display: none;
+    }
+    
+    .header__mobil-btn {
+        display: inline-block;
+        border: 0;
+        
+    }
+   
+}

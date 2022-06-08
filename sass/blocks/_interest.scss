@@ -1,0 +1,65 @@
+
+.interest {
+    background-img: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%);
+    padding: 53px 290px;
+    margin-bottom: 150px;
+}
+
+.inner {
+    text-align: center;
+}
+.interest__word {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22343D;
+}
+
+.interest__hiading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+}
+
+.interest__text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22343D;
+
+}
+
+@media only screen and  (max-width:576px){
+
+    .interest {
+        
+        padding: 47px;
+    }
+    
+    .interest__word{
+        margin-bottom: 24px;
+    }
+
+    .interest__hiading{
+        width: 100%;
+        max-width: 370px;
+        margin-bottom: 25px;
+    }
+
+    .interest__text{
+        margin-bottom: 32px;
+    }
+   
+}
+    
+

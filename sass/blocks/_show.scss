@@ -1,0 +1,86 @@
+
+.show {
+    margin-bottom: 150px;
+    background-color: #e5e5e5;
+}
+
+.show__inner {
+    margin-bottom: 32px;
+}
+
+.active{
+    background-color: none;
+   
+}
+
+.show__carusel::after{
+display: none;
+}
+
+.show__hiading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+}
+
+.show__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+
+.carusel__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carusel__item {
+    width: 100%;
+    max-width: 348px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.carusel__img {
+    width: 348px;
+    height: 185px;
+    margin-bottom: 24px;
+}
+.carusel__text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    opacity: 0.6;
+}
+.carusel__black {
+opacity: 0;
+}
+.carusel__box-active {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    
+    
+    color: #22343D;
+}
