@@ -1,6 +1,5 @@
 .footer {
     padding-bottom: 50px;
-    background-color: #E5E5E5;
 }
 
 .footer__inner {
@@ -27,11 +26,13 @@
 .footer__tarmoq {
     display: flex;
     align-items: center;
+    margin-right: 5px;
 
 }
 .footer__tarmoqimg {
     width: 40px;
     height: 40px;
+    margin-right: 5px;
 
 }
 .footer__link {

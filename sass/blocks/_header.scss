@@ -1,7 +1,7 @@
 .header {
     padding: 19px 0;
     margin-bottom: 25px;
-    background-color: #e5e5e5;
+   
 }
 
 
@@ -90,11 +90,10 @@ border-radius: 4px;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color:#22343D;
     border: 0;
 }
 
-.active {
+.acktive {
    background-color:#02897A;
    color: #fff;
 }
@@ -106,6 +105,7 @@ border-radius: 4px;
 .header__button {
     border: 0;
     border-radius: 100%;
+    margin-left: 5px;
 }
 
 .header__button-img {
